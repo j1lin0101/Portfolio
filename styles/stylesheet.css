@@ -1,0 +1,58 @@
+*	{
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+}
+.project-pic {
+  width: 25%;
+  border: 2px solid green;
+}
+.project-pic:hover {
+  border: 5px dashed red;
+}
+h1 {
+  color: blue;
+}
+.navigation {
+  width: 25%;
+}
+.navigation a {
+  text-decoration: none;
+  color: darkcyan;
+}
+.navigation:hover {
+  background-color: dodgerblue;
+}
+.navigation:hover a{
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bolder;
+}
+h2 {
+  background-color: darkred;
+  color: ghostwhite;
+  width: 30%;
+}
+h3 {
+  color: purple;
+}
+.project-link {
+  color: white;
+  background-color: mediumblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.project-link:visited {
+  color: red;
+  background-color: white;
+}
+.project-link:hover {
+  color: purple;
+  background-color: white;
+}
+.footer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: blue;
+}
