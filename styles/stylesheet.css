@@ -3,6 +3,7 @@
 }
 body {
   background-color: beige;
+  font-family: Lora, serif;
 }
 .project-pic {
   width: 25%;
@@ -13,6 +14,7 @@ body {
 }
 h1 {
   color: blue;
+  font-family: Lato, 'sans serif';
 }
 .navigation {
   width: 25%;
@@ -33,9 +35,12 @@ h2 {
   background-color: darkred;
   color: ghostwhite;
   width: 30%;
+  text-align: center;
+  font-family: Lato, 'sans serif'
 }
 h3 {
   color: purple;
+  font-family: Lato, 'sans serif';
 }
 .project-link {
   color: white;
@@ -52,7 +57,42 @@ h3 {
   background-color: white;
 }
 .footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: center;
   font-size: 2rem;
   font-weight: bold;
   color: blue;
+}
+
+#projects {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+  align-items: flex-start;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+nav li {
+  display: inline;
 }

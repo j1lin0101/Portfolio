@@ -5,11 +5,15 @@
     <meta charset="utf-8">
     <title>Jeremy's Portfolio Page</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora&display=swap" rel="stylesheet"><script src="https://kit.fontawesome.com/0ca98fcb97.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ca98fcb97.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
       <header>
-        <h1>Welcome to Jeremy's Portfolio</h1>
+        <h1>Welcome to Jeremy's Portfolio <i class="fas fa-thumbs-up"></i></h1>
 
         <nav>
           <ul>
@@ -19,36 +23,42 @@
         </nav>
       </header>
 
-      <section>
+      <section id="projects">
         <h2>My Projects</h2>
+        <div id="projects-flex">
+          <div class="project">
+            <article>
+              <h3>Semantic Elements</h3>
+              <a class="project-link" href="https://github.com/j1lin0101/semantic-elements.git"><i class="fas fa-people-carry"></i> Visit the Project Here!</a>
+            </article>
 
-        <article>
-          <h3>Semantic Elements</h3>
-          <a class="project-link" href="https://github.com/j1lin0101/semantic-elements.git">Visit the Project Here!</a>
-        </article>
+            <aside>
+              <img class="project-pic" src="images/semantic-img.png" alt="Homepage of Semantic Image Project from UW Front End Web Dev Certification">
+            </aside>
+          </div>
 
-        <aside>
-          <img class="project-pic" src="images/semantic-img.png" alt="Homepage of Semantic Image Project from UW Front End Web Dev Certification">
-        </aside>
+          <div class="project">
+            <article>
+              <h3>Guitar Strap MIDI Controller</h3>
+              <a class="project-link" href="https://jeremyplin.com/project/04cbc85b/Guitar-Strap-MIDI-Controller"><i class="fas fa-people-carry"></i> Visit the Project Here!</a>
+            </article>
 
-        <article>
-          <h3>Guitar Strap MIDI Controller</h3>
-          <a class="project-link" href="https://jeremyplin.com/project/04cbc85b/Guitar-Strap-MIDI-Controller">Visit the Project Here!</a>
-        </article>
+            <aside>
+              <img class="project-pic" src="images/midi-logo.png" alt="3D Model of the Guitar Strap MIDI Controller">
+            </aside>
+          </div>
 
-        <aside>
-          <img class="project-pic" src="images/midi-logo.png" alt="3D Model of the Guitar Strap MIDI Controller">
-        </aside>
+          <div class="project">
+            <article>
+              <h3>Aura</h3>
+              <a class="project-link" href="https://jeremyplin.com/project/0445e41e/Aura"><i class="fas fa-people-carry"></i> Visit the Project Here!</a>
+            </article>
 
-        <article>
-          <h3>Aura</h3>
-          <a class="project-link" href="https://jeremyplin.com/project/0445e41e/Aura">Visit the Project Here!</a>
-        </article>
-
-        <aside>
-          <img class="project-pic" src="images/aura-logo.png" alt="Green and Blue Colored Gradient Logo of Aura">
-        </aside>
-
+            <aside>
+              <img class="project-pic" src="images/aura-logo.png" alt="Green and Blue Colored Gradient Logo of Aura">
+            </aside>
+          </div>
+        </div>
       </section>
 
       <footer>
