@@ -8,13 +8,22 @@ body {
 .project-pic {
   width: 25%;
   border: 2px solid green;
+  transition: border 3s;
+
 }
 .project-pic:hover {
   border: 5px dashed red;
+  width: 35%;
 }
 h1 {
   color: blue;
   font-family: Lato, 'sans serif';
+  transition: color 2s;
+}
+
+h1:hover {
+  color: green;
+  font-family: monospace;
 }
 .navigation {
   width: 25%;
@@ -22,6 +31,7 @@ h1 {
 .navigation a {
   text-decoration: none;
   color: darkcyan;
+  transition: color 3s;
 }
 .navigation:hover {
   background-color: dodgerblue;
@@ -56,6 +66,7 @@ h3 {
   color: purple;
   background-color: white;
 }
+
 .footer {
   display: flex;
   flex-flow: column wrap;
@@ -84,7 +95,11 @@ h3 {
   flex-flow: column wrap;
   width: 30%;
   align-items: flex-start;
+  margin: 1rem;
+  transition: background-color 2s;
 }
+
+
 
 header {
   display: flex;
@@ -95,4 +110,13 @@ header {
 
 nav li {
   display: inline;
+}
+
+.project:nth-child(odd) {
+  background-color: yellowgreen;
+  transition: background-color 2s;
+}
+
+.project:hover {
+  background-color: dodgerblue;
 }
