@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Jeremy's Portfolio <i class="fas fa-thumbs-up"></i></h1>
+      <nav>
+        <ul>
+          <li class="navigation"><a href="index.html">Home</a></li>
+          <li class="navigation"><a href="about.html">About Me</a></li>
+          <li class="navigation"><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>Contact Me</h2>
+
+    <form method="GET">
+      <label>Your Name:
+        <input type="text" name="contactName">
+      </label>
+
+      <label>Your Email:
+        <input type="email" name="contactEmail">
+      </label>
+
+      <label>Your Message:
+        <textarea name="contactMessage" rows="8" cols="80"></textarea>
+      </label>
+
+      <label>Your Reason for Contacting:
+        <select name="reason">
+          <option value="">Please select</option>
+          <option value="personal">Personal Message</option>
+          <option value="job">Job/Work Opportunity</option>
+          <option value="question">Questions/Clarificatins</option>
+          <option value="Other">Other</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend>Would you like to join my email list?</legend>
+        <label>
+          <input type="radio" name="list" value="yes">
+          Yes
+        </label>
+
+        <label>
+          <input type="radio" name="list" value="no">
+          No
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>

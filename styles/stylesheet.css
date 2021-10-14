@@ -120,3 +120,34 @@ nav li {
 .project:hover {
   background-color: dodgerblue;
 }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
+}
+
+input:focus, textarea:focus {
+  outline-color: green;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: black;
+  color: white;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
